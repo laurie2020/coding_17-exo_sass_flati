@@ -1,5 +1,6 @@
 body {
   font-family: "Open Sans", sans-serif;
+  color: grey;
   margin: 0;
 }
 body header {
@@ -32,6 +33,29 @@ body header .nav-bar ul li {
   list-style: none;
   padding: 15px;
   border-radius: 5px 5px 0 0;
+}
+body #quote {
+  background-color: #E6E5E4;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+body #quote p {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  width: 725px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body #quote p #programmers {
+  background-color: #5596D7;
+  color: white;
+}
+body #quote p #complexity {
+  color: #5596D7;
+}
+body #quote p #simplicity {
+  color: #5D5D5D;
 }
 
 /*# sourceMappingURL=style.css.map */
