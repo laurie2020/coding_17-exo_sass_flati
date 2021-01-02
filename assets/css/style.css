@@ -57,5 +57,45 @@ body #quote p #complexity {
 body #quote p #simplicity {
   color: #5D5D5D;
 }
+body #content {
+  background-color: #F3F2F1;
+}
+body #content #content-1 {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body #content #content-1 .carte {
+  background-color: #E6E5E4;
+  width: 220px;
+  border-radius: 7px;
+  text-align: center;
+  padding: 10px 10px 30px 10px;
+  font-size: 12px;
+}
+body #content #content-1 .carte p {
+  font-weight: 600;
+}
+body #content #content-1 .carte .blue {
+  margin-top: 0;
+  color: #5596D7;
+}
+body #content #content-1 .carte i {
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #F3F2F1;
+  color: #4682BF;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+body #content #content-1 .carte .titre-carte {
+  margin-bottom: 4px;
+  color: #333332;
+  font-weight: 700;
+  font-size: 15px;
+}
 
 /*# sourceMappingURL=style.css.map */
