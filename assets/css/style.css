@@ -12,27 +12,30 @@ body header .nav-bar {
   justify-content: space-around;
   margin-top: 0;
   background-color: #42434C;
-  color: white;
   padding-bottom: 0;
 }
 body header .nav-bar #title {
   display: flex;
   align-items: center;
+  color: white;
 }
 body header .nav-bar h1 {
   margin: 0;
+  font-weight: 600;
 }
 body header .nav-bar ul {
   display: flex;
   margin-bottom: 0;
+  font-size: 12px;
 }
 body header .nav-bar ul .home {
   background-color: #5596D7;
+  color: white;
 }
 body header .nav-bar ul li {
   list-style: none;
   padding: 15px;
-  border-radius: 5px 5px 0 0;
+  border-radius: 3px 3px 0 0;
 }
 body #quote {
   background-color: #E6E5E4;
@@ -63,8 +66,8 @@ body #content {
 body #content #content-1 {
   padding-top: 50px;
   display: flex;
-  justify-content: space-around;
-  width: 75%;
+  justify-content: space-between;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -78,6 +81,7 @@ body #content #content-1 .carte {
 }
 body #content #content-1 .carte p {
   font-weight: 600;
+  margin-bottom: 30px;
 }
 body #content #content-1 .carte .blue {
   margin-top: 0;
@@ -96,6 +100,80 @@ body #content #content-1 .carte .titre-carte {
   color: #333332;
   font-weight: 700;
   font-size: 15px;
+}
+body #content #content-2 {
+  display: flex;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+body #content #content-2 #text {
+  width: 35%;
+  padding-right: 150px;
+  font-size: 12px;
+}
+body #content #content-2 #text #text-1 {
+  color: #A1A1A1;
+}
+body #content #content-2 #text button {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  background-color: #399EC8;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 10px;
+  font-weight: 500;
+}
+body #content #content-2 #images {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+body #content #content-2 #images .carte-image {
+  background-color: #324F6D;
+  width: 200px;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  border-radius: 7px;
+}
+body #content #content-2 #images .carte-image img {
+  width: 200px;
+  height: 127px;
+  border-radius: 7px 7px 0 0;
+}
+body footer {
+  text-align: center;
+  color: rgba(231, 231, 231, 0.5);
+  font-weight: 600;
+}
+body footer #main-footer {
+  background-color: #5596D7;
+  padding-bottom: 20px;
+}
+body footer #main-footer h2 {
+  margin-top: 0;
+  padding-top: 20px;
+  font-weight: 600;
+}
+body footer #main-footer p {
+  width: 62%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body footer #main-footer i {
+  font-size: 30px;
+  margin: 10px;
+}
+body footer #rights-footer {
+  background-color: #42434C;
+}
+body footer #rights-footer p {
+  margin: 0;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
